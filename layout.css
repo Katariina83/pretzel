@@ -1,0 +1,75 @@
+/*
+Mobile first!
+*/
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem;
+}
+
+.special {
+
+}
+.wrapper {
+    width: 960px;
+}
+
+#logo img {
+
+}
+.päävalikko {
+    width: 20%;
+    float: left;
+}
+.maincontent {
+    width: 60%;
+    box-sizing: border-box;
+    float: left;
+}
+.aside-sidebar {
+    width: 40%;
+    box-sizing: border-box;
+    float: right;
+}
+#pretzels img {
+
+}
+.what-are-prezels {
+    
+
+}
+.our-pretzels {
+    
+}
+.valikoima {
+    column-count: 2;
+}
+h1 {
+    
+}
+.yhteystiedot {
+    
+
+}
+.salt-and-battery {
+    
+}
+.copyright {
+
+}
+
+/* Media query, tablet näkymä */
+  
+  @media only screen and (min-width: 426px) {
+  
+  body {
+
+  }
+}
+  
+  
+  
