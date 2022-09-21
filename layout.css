@@ -1,4 +1,4 @@
-/* Mobiilinäkymä */
+/* Mobile-first */
 
 head {
 
@@ -10,20 +10,16 @@ body {
 
 #special {
 background-color:#5F8288;
-@import url('https://fonts.googleapis.com/css2?family=Glory:wght@400;600&family=Roboto:wght@300&display=swap');
-font-family: 'Glory', sans-serif;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: white;
 padding: 0.4rem;
-background-image: url(../../../../images/special-bg.png);
 background-position: bottom left;
 background-repeat: repeat-x;
 }
 
 #wrapper {
-@import url('https://fonts.googleapis.com/css2?family=Glory:wght@400;600&family=Roboto:wght@300&display=swap');
-font-family: 'Glory', sans-serif;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 
 
 nav {
@@ -41,7 +37,7 @@ nav > * {
   flex-basis: 0;
 }
 
-.piiloon {
+.piilossa {
   display: block;
 }
 
@@ -94,11 +90,8 @@ article {
 aside {
   background-color: #FDFAF5;
   padding: 1rem;
-/* column-count: 2;
- */display: flex;
-/* align-items: right;
- */
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -156,51 +149,46 @@ figure img {
   margin: 1rem;
 }
 
-.otsikko2 {
+.h2 {
   text-transform: uppercase;
   padding: 1rem;
-  margin: 1rem;
 }
 
 .isolla {
   text-transform: uppercase;
 }
 
-h2 {
-  padding: 1rem;
-}
-
-.isompi { 
+.butlletproof { 
   font-weight: 400;
 }
 
-/* Tablettinäkymä */ 
+/* Tablet-näkymän säännöt */
 
-@media screen and (max-width: 768px) {
-    body {
-    }
-    .piiloon {
-      display: none;
-    }
-    .main-content-flex > * {
-      flex-basis: 100%;
-    }
-
-    .isompi {
-      font-style: oblique;
-    }
-  }
-
-/* Mobiilinäkymä */
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
     body {
     }
     nav .ekalogo {
       flex-basis: 100%;
     }
     
-    .isompi {
+    .bulletproof {
       font-weight: 400;
     }
   }
+
+  /* Desktop-näkymän säännöt */ 
+
+@media screen and (max-width: 769px) {
+  body {
+  }
+  .piilossa {
+    display: none;
+  }
+  .main-content-flex > * {
+    flex-basis: 100%;
+  }
+
+  .bulletproof {
+    font-style: oblique;
+  }
+}
