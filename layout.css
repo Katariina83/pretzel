@@ -5,32 +5,38 @@ head {
 }
 
 body {
-
+  background-image: url("./images/grunge.png");
 }
 
 #special {
 background-color:#5F8288;
+background-position: bottom left;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: white;
 padding: 0.4rem;
-background-position: bottom left;
+background-image: url("./images/sahalaita.png");
 background-repeat: repeat-x;
+background-position: bottom;
+}
+
+span {
+  font-style: italic;
 }
 
 #wrapper {
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
 }
-
 
 nav {
   padding: 1rem;
+  margin: 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  border-bottom: 2px solid lightgrey;
 }
-
 
 nav > * {
   flex-grow: 1;
@@ -41,9 +47,8 @@ nav > * {
   display: block;
 }
 
-
 header {
-
+  
 }
 
 figure {
@@ -51,16 +56,18 @@ figure {
 }
 
 .tuotteet ul, .yhteystiedot ul {
+  color: #3EA3C4;
   column-count: 2;
   list-style: circle;
   margin-left: 2rem;
+  text-decoration: underline;
+  border-bottom: 2px solid lightgrey;
+  padding-bottom: 1rem;
 }
-
 
 li {
 
 }
-
 
 p {
   padding: 1rem;
@@ -70,7 +77,6 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
 }
 
 .main-content-flex > * {
@@ -82,13 +88,15 @@ p {
   flex-grow: 2;
 }
 
+.pretzel {
+  padding: 1rem;
+}
+
 article {
-  background-color: #FDF8F2;
   padding: 1rem;
 }
 
 aside {
-  background-color: #FDFAF5;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -96,19 +104,18 @@ aside {
 
 h1 {
   padding: 0.5rem;
-
 }
 
 footer {
-  background-color: #FDFAF5;
   text-align: center;
   color: lightgray;
   padding: 2rem;
 }
 
 .callout {
+  background-color: #FBE9C9;
+  border-radius: 10px;
   text-align: center;
-  background-color: #FAEAC9;  
 }
 
 figure img {
@@ -125,28 +132,32 @@ figure img {
 
 .ekalogo {
   width: 10%;
+  padding-bottom: 1rem;
 }
 
 .tuotteet {
-  margin: 1rem;
 }
 
 .yhteystiedot {
-  margin: 1rem;
 }
 
 .meista {
+  padding-left: 2rem;
   text-transform: uppercase;
-  margin: 1rem;
 }
 
 .products {
+  padding-left: 2rem;
   text-transform: uppercase;
 }
 
-.otsikko1 {
+.salt-battery {
+  padding-left: 2rem;
   text-transform: uppercase;
-  margin: 1rem;
+}
+
+#suolat-pippurit {
+  padding-left: 2rem;
 }
 
 .h2 {
@@ -156,6 +167,7 @@ figure img {
 
 .isolla {
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .butlletproof { 
